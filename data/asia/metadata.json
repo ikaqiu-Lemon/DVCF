@@ -1,0 +1,106 @@
+{
+  "dataset": "Asia",
+  "dataset_id": "asia",
+  "variables": [
+    {
+      "name": "asia",
+      "full_name": "Visit to Asia",
+      "description": "Binary indicator of whether the patient has recently visited Asia, used in the Asia Bayesian network as an epidemiological risk factor for pulmonary tuberculosis exposure.",
+      "synonyms": [
+        "visited Asia",
+        "travel to Asia",
+        "Asia travel history",
+        "Asian travel exposure",
+        "recent Asia visit"
+      ]
+    },
+    {
+      "name": "tub",
+      "full_name": "Tuberculosis",
+      "description": "Binary indicator of active pulmonary tuberculosis infection, a chronic bacterial disease primarily affecting the lungs caused by Mycobacterium tuberculosis.",
+      "synonyms": [
+        "tuberculosis",
+        "TB",
+        "pulmonary tuberculosis",
+        "Mycobacterium tuberculosis infection",
+        "tuberculous disease"
+      ]
+    },
+    {
+      "name": "smoke",
+      "full_name": "Smoking",
+      "description": "Binary indicator of tobacco smoking history, a well-established risk factor for both lung cancer and chronic obstructive pulmonary disease.",
+      "synonyms": [
+        "smoking",
+        "tobacco use",
+        "cigarette smoking",
+        "tobacco smoking",
+        "smoking status",
+        "tobacco exposure"
+      ]
+    },
+    {
+      "name": "lung",
+      "full_name": "Lung Cancer",
+      "description": "Binary indicator of the presence of malignant neoplasm of the lung, encompassing both small-cell and non-small-cell carcinoma subtypes.",
+      "synonyms": [
+        "lung cancer",
+        "pulmonary carcinoma",
+        "lung carcinoma",
+        "bronchogenic carcinoma",
+        "pulmonary malignancy",
+        "lung neoplasm"
+      ]
+    },
+    {
+      "name": "bronc",
+      "full_name": "Bronchitis",
+      "description": "Binary indicator of bronchitis, characterized by inflammation of the bronchial tubes resulting in persistent cough and mucus production.",
+      "synonyms": [
+        "bronchitis",
+        "chronic bronchitis",
+        "bronchial inflammation",
+        "airway inflammation",
+        "tracheobronchitis"
+      ]
+    },
+    {
+      "name": "either",
+      "full_name": "Either Tuberculosis or Lung Cancer",
+      "description": "Deterministic binary indicator of whether the patient has either tuberculosis or lung cancer. In the Asia Bayesian network, this composite disease node is true if tuberculosis is present, lung cancer is present, or both are present, and it mediates their effects on abnormal chest X-ray findings and dyspnea.",
+      "synonyms": [
+        "tuberculosis or lung cancer",
+        "TB or lung cancer",
+        "either disease",
+        "pulmonary disease indicator",
+        "tuberculosis/lung cancer composite"
+      ]
+    },
+    {
+      "name": "xray",
+      "full_name": "Chest X-ray",
+      "description": "Binary indicator of an abnormal chest radiograph finding, used as a diagnostic imaging modality for detecting pulmonary pathology including infiltrates, masses, and effusions.",
+      "synonyms": [
+        "chest xray",
+        "chest radiograph",
+        "CXR",
+        "thoracic radiography",
+        "chest film",
+        "posteroanterior chest X-ray"
+      ]
+    },
+    {
+      "name": "dysp",
+      "full_name": "Dyspnea",
+      "description": "Binary indicator of dyspnea, the subjective sensation of breathing difficulty or shortness of breath, commonly associated with pulmonary or cardiac pathology.",
+      "synonyms": [
+        "dyspnea",
+        "shortness of breath",
+        "breathlessness",
+        "respiratory distress",
+        "difficulty breathing",
+        "labored breathing"
+      ]
+    }
+  ]
+}

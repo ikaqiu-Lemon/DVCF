@@ -1,0 +1,55 @@
+{
+  "dataset": "DWD_climate",
+  "dataset_id": "DWD_climate",
+  "sample_count": 349,
+  "variable_count": 6,
+  "variable_type": "continuous",
+  "missing_value_count": 0,
+  "column_order": [
+    "Altitude",
+    "Temperature",
+    "Precipitation",
+    "Longitude",
+    "Sunshine",
+    "Latitude"
+  ],
+  "data_file": "DWD_climate_data.csv",
+  "data_format": {
+    "format": "CSV",
+    "delimiter": ",",
+    "header": true,
+    "rows": "samples",
+    "columns": "variables"
+  },
+  "reference_graph": {
+    "file": "DWD_climate_GTmatrix.csv",
+    "format": "headerless binary CSV matrix",
+    "shape": [
+      6,
+      6
+    ],
+    "directed_edge_count": 6,
+    "orientation": "A[i,j] = 1 denotes column_order[i] -> column_order[j]",
+    "row_and_column_order": [
+      "Altitude",
+      "Temperature",
+      "Precipitation",
+      "Longitude",
+      "Sunshine",
+      "Latitude"
+    ],
+    "edge_list_file": "reference_edges.csv"
+  },
+  "sources": {
+    "original_dataset_or_network_url": "https://webdav.tuebingen.mpg.de/cause-effect/",
+    "matmcd_download_instructions_url": "https://github.com/D2I-Group/matmcd",
+    "processed_data_and_reference_graph_url": "https://github.com/mas-takayama/LLM-and-SCD"
+  },
+  "file_sha256": {
+    "DWD_climate_data.csv": "9ab45aed17a1ccc95e162140fbd3fe8b5432d9ee10171234cd369c902329e927",
+    "DWD_climate_GTmatrix.csv": "baec70ff0d0cfa8553c83ef96851e5b392b15142107365ef1e4df329df865456"
+  },
+  "variable_statistics_file": "variable_statistics.csv",
+  "metadata_file": "metadata.json",
+  "manifest_basis": "Column names, order, counts, ranges, and observed codes were extracted from the included CSV files. Continuous/discrete classification follows the paper."
+}

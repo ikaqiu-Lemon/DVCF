@@ -1,0 +1,68 @@
+{
+  "dataset": "Auto_MPG",
+  "dataset_id": "Auto_MPG",
+  "variables": [
+    {
+      "name": "Displacement",
+      "full_name": "Engine Displacement",
+      "description": "Total swept volume of all cylinders in the internal combustion engine, measured in cubic inches or cubic centimeters, a primary determinant of engine power output and fuel consumption.",
+      "synonyms": [
+        "engine displacement",
+        "cylinder displacement",
+        "engine capacity",
+        "engine size",
+        "cubic capacity",
+        "swept volume"
+      ]
+    },
+    {
+      "name": "Mpg",
+      "full_name": "Miles Per Gallon (Fuel Economy)",
+      "description": "Fuel economy of the vehicle measured in miles per gallon, representing the inverse relationship between fuel consumption and distance traveled under standard driving conditions.",
+      "synonyms": [
+        "fuel economy",
+        "fuel efficiency",
+        "miles per gallon",
+        "fuel consumption rate",
+        "gas mileage"
+      ]
+    },
+    {
+      "name": "Horsepower",
+      "full_name": "Engine Horsepower",
+      "description": "Peak brake horsepower of the engine, quantifying the maximum mechanical power output at the crankshaft, a key performance parameter influenced by displacement, compression ratio, and engine tuning.",
+      "synonyms": [
+        "brake horsepower",
+        "engine power",
+        "BHP",
+        "rated horsepower",
+        "power output",
+        "HP"
+      ]
+    },
+    {
+      "name": "Weight",
+      "full_name": "Vehicle Curb Weight",
+      "description": "Curb weight of the vehicle measured in pounds, representing the total mass of the vehicle including all standard equipment and fluids but excluding occupants and cargo, a primary factor governing inertial resistance and fuel consumption.",
+      "synonyms": [
+        "curb weight",
+        "vehicle weight",
+        "vehicle mass",
+        "gross weight",
+        "unladen weight"
+      ]
+    },
+    {
+      "name": "Acceleration",
+      "full_name": "Acceleration Time (0 to 60 mph)",
+      "description": "Time in seconds required for the vehicle to accelerate from rest to 60 miles per hour, an inverse indicator of the power-to-weight ratio reflecting the combined effect of engine output and vehicle mass.",
+      "synonyms": [
+        "0-60 time",
+        "acceleration performance",
+        "sprint time",
+        "0-60 mph time",
+        "acceleration rate"
+      ]
+    }
+  ]
+}

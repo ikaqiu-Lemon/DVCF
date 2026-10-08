@@ -1,0 +1,233 @@
+{
+  "dataset": "Child",
+  "dataset_id": "child",
+  "variables": [
+    {
+      "name": "BirthAsphyxia",
+      "full_name": "Birth Asphyxia",
+      "description": "Binary indicator of perinatal asphyxia, a condition of impaired gas exchange during birth leading to hypoxemia and hypercapnia in the neonate.",
+      "synonyms": [
+        "perinatal asphyxia",
+        "neonatal asphyxia",
+        "birth hypoxia",
+        "intrapartum asphyxia"
+      ]
+    },
+    {
+      "name": "HypDistrib",
+      "full_name": "Hypoxia Distribution",
+      "description": "Categorical indicator characterizing the anatomical distribution pattern of hypoxia in the neonate, distinguishing between generalized and differential (upper vs. lower body) cyanosis.",
+      "synonyms": [
+        "hypoxia distribution pattern",
+        "cyanosis distribution",
+        "oxygen desaturation pattern",
+        "differential hypoxia"
+      ]
+    },
+    {
+      "name": "HypoxiaInO2",
+      "full_name": "Hypoxia in Supplemental Oxygen",
+      "description": "Binary indicator of persistent hypoxemia despite supplemental oxygen administration, suggesting the presence of intracardiac right-to-left shunting or severe pulmonary pathology.",
+      "synonyms": [
+        "refractory hypoxemia",
+        "oxygen-resistant hypoxia",
+        "persistent hypoxia on O2",
+        "supplemental O2 hypoxia"
+      ]
+    },
+    {
+      "name": "CO2",
+      "full_name": "Arterial CO2 Level",
+      "description": "Categorical indicator of the arterial partial pressure of carbon dioxide (PaCO2), reflecting the adequacy of alveolar ventilation in the neonate.",
+      "synonyms": [
+        "PaCO2",
+        "arterial carbon dioxide",
+        "carbon dioxide partial pressure",
+        "blood CO2 level",
+        "hypercapnia status"
+      ]
+    },
+    {
+      "name": "ChestXray",
+      "full_name": "Chest X-ray Finding",
+      "description": "Categorical indicator of the radiographic appearance on neonatal chest X-ray, used to identify pulmonary pathology such as ground-glass opacities, hyperinflation, or cardiomegaly.",
+      "synonyms": [
+        "chest radiograph",
+        "CXR",
+        "neonatal chest film",
+        "thoracic radiograph"
+      ]
+    },
+    {
+      "name": "Grunting",
+      "full_name": "Expiratory Grunting",
+      "description": "Binary indicator of expiratory grunting, an audible sign of neonatal respiratory distress caused by partial glottic closure to maintain functional residual capacity and prevent alveolar collapse.",
+      "synonyms": [
+        "neonatal grunting",
+        "respiratory grunting",
+        "expiratory grunt",
+        "grunting respiration"
+      ]
+    },
+    {
+      "name": "LVHreport",
+      "full_name": "Left Ventricular Hypertrophy Report",
+      "description": "Categorical indicator of the clinical report documenting the presence or absence of left ventricular hypertrophy based on echocardiographic or electrocardiographic assessment.",
+      "synonyms": [
+        "LVH report",
+        "ventricular hypertrophy report",
+        "echocardiographic LVH finding",
+        "LVH documentation"
+      ]
+    },
+    {
+      "name": "LowerBodyO2",
+      "full_name": "Lower Body Oxygen Saturation",
+      "description": "Categorical indicator of transcutaneous oxygen saturation measured at a post-ductal site (lower extremity), used in combination with pre-ductal measurements to assess for differential cyanosis indicative of right-to-left ductal shunting.",
+      "synonyms": [
+        "post-ductal SpO2",
+        "lower extremity oxygen saturation",
+        "post-ductal oxygenation",
+        "pedal SpO2"
+      ]
+    },
+    {
+      "name": "RUQO2",
+      "full_name": "Right Upper Quadrant Oxygen Saturation",
+      "description": "Categorical indicator of transcutaneous oxygen saturation measured at a pre-ductal site (right upper extremity), reflecting systemic arterial oxygenation prior to the ductus arteriosus.",
+      "synonyms": [
+        "pre-ductal SpO2",
+        "right arm SpO2",
+        "pre-ductal oxygen saturation",
+        "right upper extremity O2"
+      ]
+    },
+    {
+      "name": "CO2Report",
+      "full_name": "CO2 Report",
+      "description": "Categorical indicator of the clinical report documenting the arterial CO2 measurement, reflecting the clinician's interpretation of ventilatory status.",
+      "synonyms": [
+        "carbon dioxide report",
+        "PaCO2 report",
+        "blood gas CO2 report",
+        "ventilation status report"
+      ]
+    },
+    {
+      "name": "XrayReport",
+      "full_name": "X-ray Report",
+      "description": "Categorical indicator of the radiologist's interpretation of the neonatal chest radiograph, summarizing identified pulmonary or cardiac abnormalities.",
+      "synonyms": [
+        "chest X-ray report",
+        "radiograph interpretation",
+        "CXR report",
+        "radiological report"
+      ]
+    },
+    {
+      "name": "Disease",
+      "full_name": "Underlying Disease Category",
+      "description": "Categorical variable representing the primary neonatal diagnosis, distinguishing among congenital heart disease subtypes, pulmonary pathology, persistent pulmonary hypertension, and normal physiology.",
+      "synonyms": [
+        "neonatal diagnosis",
+        "disease category",
+        "primary diagnosis",
+        "diagnostic classification"
+      ]
+    },
+    {
+      "name": "GruntingReport",
+      "full_name": "Grunting Report",
+      "description": "Categorical indicator of the clinical report documenting the presence, absence, or severity of expiratory grunting as observed by the clinician.",
+      "synonyms": [
+        "grunting observation report",
+        "respiratory grunting report",
+        "grunting documentation",
+        "grunting assessment"
+      ]
+    },
+    {
+      "name": "Age",
+      "full_name": "Gestational Age Category",
+      "description": "Categorical indicator of the neonate's gestational age at birth, distinguishing between preterm, term, and post-term categories, a key determinant of cardiopulmonary maturity.",
+      "synonyms": [
+        "gestational age",
+        "neonatal age",
+        "GA",
+        "birth age category",
+        "maturity at birth"
+      ]
+    },
+    {
+      "name": "LVH",
+      "full_name": "Left Ventricular Hypertrophy",
+      "description": "Binary indicator of the presence of left ventricular hypertrophy, characterized by increased left ventricular wall thickness, typically secondary to volume or pressure overload in congenital heart disease.",
+      "synonyms": [
+        "LVH",
+        "ventricular hypertrophy",
+        "left ventricular enlargement",
+        "LV hypertrophy"
+      ]
+    },
+    {
+      "name": "DuctFlow",
+      "full_name": "Ductus Arteriosus Flow Pattern",
+      "description": "Categorical indicator of the direction and magnitude of blood flow through the ductus arteriosus, distinguishing between left-to-right shunting, right-to-left shunting, and no significant flow.",
+      "synonyms": [
+        "ductal shunt direction",
+        "PDA flow",
+        "ductus flow",
+        "patent ductus arteriosus flow",
+        "ductal shunting"
+      ]
+    },
+    {
+      "name": "CardiacMixing",
+      "full_name": "Cardiac Mixing",
+      "description": "Categorical indicator of the degree of intracardiac blood mixing, reflecting the presence and severity of shunting through septal defects or other anatomical communications between the systemic and pulmonary circulations.",
+      "synonyms": [
+        "intracardiac shunting",
+        "blood mixing",
+        "cardiac shunt",
+        "intracardiac mixing",
+        "atrial/ventricular mixing"
+      ]
+    },
+    {
+      "name": "LungParench",
+      "full_name": "Lung Parenchymal Status",
+      "description": "Categorical indicator of the functional and structural status of the lung parenchyma, reflecting the presence or absence of parenchymal disease such as respiratory distress syndrome, meconium aspiration, or pneumonia.",
+      "synonyms": [
+        "lung parenchyma",
+        "pulmonary parenchymal condition",
+        "lung tissue status",
+        "parenchymal disease",
+        "lung pathology"
+      ]
+    },
+    {
+      "name": "LungFlow",
+      "full_name": "Pulmonary Blood Flow",
+      "description": "Categorical indicator of the volume of blood flow through the pulmonary vascular bed, influenced by pulmonary vascular resistance, cardiac output, and the presence of intracardiac or extracardiac shunts.",
+      "synonyms": [
+        "pulmonary blood flow",
+        "lung perfusion",
+        "pulmonary circulation",
+        "pulmonary vascular flow",
+        "Qp"
+      ]
+    },
+    {
+      "name": "Sick",
+      "full_name": "Clinical Severity Status",
+      "description": "Binary indicator of the overall clinical severity of the neonate's condition, distinguishing between clinically stable and critically ill presentations requiring intensive care intervention.",
+      "synonyms": [
+        "clinical status",
+        "illness severity",
+        "neonatal sickness score",
+        "clinical acuity",
+        "critical illness indicator"
+      ]
+    }
+  ]
+}

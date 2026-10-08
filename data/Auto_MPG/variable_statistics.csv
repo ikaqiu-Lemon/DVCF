@@ -1,0 +1,6 @@
+column_index_1based,variable,variable_type,non_missing_count,missing_count,unique_value_count,min_observed,max_observed,observed_codes
+1,Displacement,continuous,392,0,81,68,455,
+2,Mpg,continuous,392,0,127,9,46.6,
+3,Horsepower,continuous,392,0,93,46,230,
+4,Weight,continuous,392,0,346,1613,5140,
+5,Acceleration,continuous,392,0,95,8,24.8,

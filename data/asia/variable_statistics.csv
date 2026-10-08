@@ -1,0 +1,9 @@
+column_index_1based,variable,variable_type,non_missing_count,missing_count,unique_value_count,min_observed,max_observed,observed_codes
+1,asia,discrete,1000,0,2,0,1,"[0,1]"
+2,tub,discrete,1000,0,2,0,1,"[0,1]"
+3,smoke,discrete,1000,0,2,0,1,"[0,1]"
+4,lung,discrete,1000,0,2,0,1,"[0,1]"
+5,bronc,discrete,1000,0,2,0,1,"[0,1]"
+6,either,discrete,1000,0,2,0,1,"[0,1]"
+7,xray,discrete,1000,0,2,0,1,"[0,1]"
+8,dysp,discrete,1000,0,2,0,1,"[0,1]"

@@ -1,0 +1,59 @@
+{
+  "dataset": "Asia",
+  "dataset_id": "asia",
+  "sample_count": 1000,
+  "variable_count": 8,
+  "variable_type": "discrete",
+  "missing_value_count": 0,
+  "column_order": [
+    "asia",
+    "tub",
+    "smoke",
+    "lung",
+    "bronc",
+    "either",
+    "xray",
+    "dysp"
+  ],
+  "data_file": "asia_data.csv",
+  "data_format": {
+    "format": "CSV",
+    "delimiter": ",",
+    "header": true,
+    "rows": "samples",
+    "columns": "variables"
+  },
+  "reference_graph": {
+    "file": "asia_GTmatrix.csv",
+    "format": "headerless binary CSV matrix",
+    "shape": [
+      8,
+      8
+    ],
+    "directed_edge_count": 8,
+    "orientation": "A[i,j] = 1 denotes column_order[i] -> column_order[j]",
+    "row_and_column_order": [
+      "asia",
+      "tub",
+      "smoke",
+      "lung",
+      "bronc",
+      "either",
+      "xray",
+      "dysp"
+    ],
+    "edge_list_file": "reference_edges.csv"
+  },
+  "sources": {
+    "original_dataset_or_network_url": "https://www.bnlearn.com/bnrepository/discrete-small.html#asia",
+    "matmcd_download_instructions_url": "https://github.com/D2I-Group/matmcd"
+  },
+  "file_sha256": {
+    "asia_data.csv": "0d241759ea5409b8efc35b2b7bf3a19e74a541a8e1eb3563efca01fae2d475d5",
+    "asia_GTmatrix.csv": "7d10e2bec42e8c8261483ccf5e1aa4f06991d2da3dfcdf34ba479eaf61fa2b9e"
+  },
+  "category_code_note": "Observed integer codes are preserved. No mapping from numeric codes to semantic category labels is supplied in this package.",
+  "variable_statistics_file": "variable_statistics.csv",
+  "metadata_file": "metadata.json",
+  "manifest_basis": "Column names, order, counts, ranges, and observed codes were extracted from the included CSV files. Continuous/discrete classification follows the paper."
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "Auto_MPG",
+  "dataset_id": "Auto_MPG",
+  "sample_count": 392,
+  "variable_count": 5,
+  "variable_type": "continuous",
+  "missing_value_count": 0,
+  "column_order": [
+    "Displacement",
+    "Mpg",
+    "Horsepower",
+    "Weight",
+    "Acceleration"
+  ],
+  "data_file": "Auto_MPG_data.csv",
+  "data_format": {
+    "format": "CSV",
+    "delimiter": ",",
+    "header": true,
+    "rows": "samples",
+    "columns": "variables"
+  },
+  "reference_graph": {
+    "file": "Auto_MPG_GTmatrix.csv",
+    "format": "headerless binary CSV matrix",
+    "shape": [
+      5,
+      5
+    ],
+    "directed_edge_count": 5,
+    "orientation": "A[i,j] = 1 denotes column_order[i] -> column_order[j]",
+    "row_and_column_order": [
+      "Displacement",
+      "Mpg",
+      "Horsepower",
+      "Weight",
+      "Acceleration"
+    ],
+    "edge_list_file": "reference_edges.csv"
+  },
+  "sources": {
+    "original_dataset_or_network_url": "https://archive.ics.uci.edu/dataset/9/auto+mpg",
+    "matmcd_download_instructions_url": "https://github.com/D2I-Group/matmcd",
+    "processed_data_and_reference_graph_url": "https://github.com/mas-takayama/LLM-and-SCD"
+  },
+  "file_sha256": {
+    "Auto_MPG_data.csv": "0ac0564307e8a4affd9eed9283ce1ab8ab34b6ba727c74ef8145fdce1615948f",
+    "Auto_MPG_GTmatrix.csv": "8386c85c657669c9f84edb9abc3c221f205b3b0b7bb2505a75a9374652c1475b"
+  },
+  "variable_statistics_file": "variable_statistics.csv",
+  "metadata_file": "metadata.json",
+  "manifest_basis": "Column names, order, counts, ranges, and observed codes were extracted from the included CSV files. Continuous/discrete classification follows the paper."
+}

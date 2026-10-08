@@ -1,0 +1,7 @@
+column_index_1based,variable,variable_type,non_missing_count,missing_count,unique_value_count,min_observed,max_observed,observed_codes
+1,Altitude,continuous,349,0,264,0,2960,
+2,Temperature,continuous,349,0,60,-4.8,10.8,
+3,Precipitation,continuous,349,0,337,417.1,2003.1,
+4,Longitude,continuous,349,0,238,6.08,14.95,
+5,Sunshine,continuous,349,0,333,1096.5,1857.5,
+6,Latitude,continuous,349,0,238,47.38,55,

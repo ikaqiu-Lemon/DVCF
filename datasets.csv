@@ -1,0 +1,6 @@
+dataset,dataset_id,samples,variables,reference_edges,variable_type,missing_values,data_file,reference_graph_file,metadata_file,manifest_file,variable_statistics_file
+Auto_MPG,Auto_MPG,392,5,5,continuous,0,data/Auto_MPG/Auto_MPG_data.csv,data/Auto_MPG/Auto_MPG_GTmatrix.csv,data/Auto_MPG/metadata.json,data/Auto_MPG/manifest.json,data/Auto_MPG/variable_statistics.csv
+DWD_climate,DWD_climate,349,6,6,continuous,0,data/DWD_climate/DWD_climate_data.csv,data/DWD_climate/DWD_climate_GTmatrix.csv,data/DWD_climate/metadata.json,data/DWD_climate/manifest.json,data/DWD_climate/variable_statistics.csv
+Sachs,Sachs,7466,11,19,continuous,0,data/Sachs/Sachs_data.csv,data/Sachs/Sachs_GTmatrix.csv,data/Sachs/metadata.json,data/Sachs/manifest.json,data/Sachs/variable_statistics.csv
+Asia,asia,1000,8,8,discrete,0,data/asia/asia_data.csv,data/asia/asia_GTmatrix.csv,data/asia/metadata.json,data/asia/manifest.json,data/asia/variable_statistics.csv
+Child,child,1000,20,25,discrete,0,data/child/child_data.csv,data/child/child_GTmatrix.csv,data/child/metadata.json,data/child/manifest.json,data/child/variable_statistics.csv

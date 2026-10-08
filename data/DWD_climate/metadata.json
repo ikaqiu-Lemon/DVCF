@@ -1,0 +1,76 @@
+{
+  "dataset": "DWD_climate",
+  "dataset_id": "DWD_climate",
+  "variables": [
+    {
+      "name": "Altitude",
+      "full_name": "Station Altitude",
+      "description": "Elevation of the meteorological station above mean sea level, an immutable geographic variable that exerts strong orographic effects on local temperature, precipitation, and solar radiation.",
+      "synonyms": [
+        "elevation",
+        "station elevation",
+        "height above sea level",
+        "altitude ASL",
+        "orographic height"
+      ]
+    },
+    {
+      "name": "Temperature",
+      "full_name": "Mean Air Temperature",
+      "description": "Mean ambient air temperature recorded at the station, representing the thermodynamic state of the near-surface atmosphere and a key driver of evapotranspiration and precipitation phase.",
+      "synonyms": [
+        "air temperature",
+        "surface temperature",
+        "mean temperature",
+        "ambient temperature",
+        "near-surface temperature"
+      ]
+    },
+    {
+      "name": "Precipitation",
+      "full_name": "Total Precipitation",
+      "description": "Cumulative precipitation amount including rainfall and snowfall, reflecting the integrated effect of atmospheric moisture transport, orographic lifting, and frontal activity at the station location.",
+      "synonyms": [
+        "rainfall",
+        "total rainfall",
+        "precipitation amount",
+        "pluviometric measurement",
+        "accumulated precipitation"
+      ]
+    },
+    {
+      "name": "Longitude",
+      "full_name": "Geographic Longitude",
+      "description": "East-west geographic coordinate of the meteorological station, an immutable spatial variable that captures the influence of maritime versus continental climate regimes across the region.",
+      "synonyms": [
+        "east-west coordinate",
+        "longitudinal position",
+        "geographic east coordinate",
+        "station longitude"
+      ]
+    },
+    {
+      "name": "Sunshine",
+      "full_name": "Sunshine Duration",
+      "description": "Total duration of direct solar irradiance exceeding the threshold intensity of 120 W/m², a measure of insolation influenced by cloud cover, latitude, and season.",
+      "synonyms": [
+        "sunshine hours",
+        "solar duration",
+        "sunshine duration",
+        "insolation hours",
+        "bright sunshine hours"
+      ]
+    },
+    {
+      "name": "Latitude",
+      "full_name": "Geographic Latitude",
+      "description": "North-south geographic coordinate of the meteorological station, an immutable spatial variable that determines solar angle, day length, and the climatological temperature gradient across the region.",
+      "synonyms": [
+        "north-south coordinate",
+        "latitudinal position",
+        "geographic north coordinate",
+        "station latitude"
+      ]
+    }
+  ]
+}

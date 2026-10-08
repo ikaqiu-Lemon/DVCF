@@ -1,0 +1,7 @@
+source,target
+Altitude,Temperature
+Altitude,Precipitation
+Altitude,Sunshine
+Longitude,Temperature
+Longitude,Precipitation
+Latitude,Temperature

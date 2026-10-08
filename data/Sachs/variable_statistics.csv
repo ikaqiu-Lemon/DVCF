@@ -1,0 +1,12 @@
+column_index_1based,variable,variable_type,non_missing_count,missing_count,unique_value_count,min_observed,max_observed,observed_codes
+1,raf,continuous,7466,0,695,1,4614,
+2,mek,continuous,7466,0,853,1,7105,
+3,plc,continuous,7466,0,750,1,6208,
+4,pip2,continuous,7466,0,838,1,9058,
+5,pip3,continuous,7466,0,583,1,1275,
+6,erk,continuous,7466,0,585,1,2571,
+7,akt,continuous,7466,0,610,1,3555,
+8,pka,continuous,7466,0,808,1,8896,
+9,pkc,continuous,7466,0,690,1,1611,
+10,p38,continuous,7466,0,836,1,7499,
+11,jnk,continuous,7466,0,801,1,4740,

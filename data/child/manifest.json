@@ -1,0 +1,83 @@
+{
+  "dataset": "Child",
+  "dataset_id": "child",
+  "sample_count": 1000,
+  "variable_count": 20,
+  "variable_type": "discrete",
+  "missing_value_count": 0,
+  "column_order": [
+    "BirthAsphyxia",
+    "HypDistrib",
+    "HypoxiaInO2",
+    "CO2",
+    "ChestXray",
+    "Grunting",
+    "LVHreport",
+    "LowerBodyO2",
+    "RUQO2",
+    "CO2Report",
+    "XrayReport",
+    "Disease",
+    "GruntingReport",
+    "Age",
+    "LVH",
+    "DuctFlow",
+    "CardiacMixing",
+    "LungParench",
+    "LungFlow",
+    "Sick"
+  ],
+  "data_file": "child_data.csv",
+  "data_format": {
+    "format": "CSV",
+    "delimiter": ",",
+    "header": true,
+    "rows": "samples",
+    "columns": "variables"
+  },
+  "reference_graph": {
+    "file": "child_GTmatrix.csv",
+    "format": "headerless binary CSV matrix",
+    "shape": [
+      20,
+      20
+    ],
+    "directed_edge_count": 25,
+    "orientation": "A[i,j] = 1 denotes column_order[i] -> column_order[j]",
+    "row_and_column_order": [
+      "BirthAsphyxia",
+      "HypDistrib",
+      "HypoxiaInO2",
+      "CO2",
+      "ChestXray",
+      "Grunting",
+      "LVHreport",
+      "LowerBodyO2",
+      "RUQO2",
+      "CO2Report",
+      "XrayReport",
+      "Disease",
+      "GruntingReport",
+      "Age",
+      "LVH",
+      "DuctFlow",
+      "CardiacMixing",
+      "LungParench",
+      "LungFlow",
+      "Sick"
+    ],
+    "edge_list_file": "reference_edges.csv"
+  },
+  "sources": {
+    "original_dataset_or_network_url": "https://www.bnlearn.com/bnrepository/discrete-medium.html#child",
+    "matmcd_download_instructions_url": "https://github.com/D2I-Group/matmcd"
+  },
+  "file_sha256": {
+    "child_data.csv": "560f73c8fc8e79dfa0bb9cca8928a5bd1221801e0e120e00ca27eadc72c2faff",
+    "child_GTmatrix.csv": "f2868b44013a51bfb36923e2df89e07a740d6392fddb6cacdfbc091017060211"
+  },
+  "category_code_note": "Observed integer codes are preserved. No mapping from numeric codes to semantic category labels is supplied in this package.",
+  "variable_statistics_file": "variable_statistics.csv",
+  "metadata_file": "metadata.json",
+  "manifest_basis": "Column names, order, counts, ranges, and observed codes were extracted from the included CSV files. Continuous/discrete classification follows the paper."
+}
